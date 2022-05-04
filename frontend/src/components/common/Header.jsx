@@ -12,6 +12,7 @@ function Header() {
             <img class="logo" src={logo} alt="" />
             <div class="icons">
                 <img class="icon" src={searchIcon} alt="" />
+                
             <img class="icon" src={shoppingCart} alt="" />
             <img class="icon" src={userIcon} alt="" />
             </div>

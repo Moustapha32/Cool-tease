@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
 header {
     width: 100%;
     background: #8eb7b8eb;
 }
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -18,12 +16,10 @@ header {
     z-index: 1;
     top: 0;
 }
-
 img.logo {
     width: 60px;
     margin-left: 30px;
 }
-
 img.icon {
     width: 15px;
     margin: 10px;
@@ -64,7 +60,6 @@ ul.container {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
 li.menus {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     transition: 0.3s;
@@ -72,11 +67,9 @@ li.menus {
     position: relative;
     margin-bottom: 30px;
 }
-
 .cards {
     background: #EBEBEB;
 }
-
 img.card-img {
     width: 50%;
     margin: 0 auto;
@@ -84,7 +77,6 @@ img.card-img {
     padding: 50px;
     height: 200px;
 }
-
 .names {
     display: flex;
     justify-content: space-between;
@@ -101,42 +93,37 @@ button.addtocart {
     border-radius: 10px;
     font-size: 15px;
 }
-
 h1.Heading2 {
     width: 94%;
     margin: 20px auto;
 }
-
 img#footer-logo {
     width: 150px;
 }
-
 /************* Signup *****************/
 section.sign_up {
     position: absolute;
     z-index: 1;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0,0,0,0.3);
     position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
-
 .sign {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
     transition: 0.3s;
-    width: 600px;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     background-color: white;
-    position: fixed;
-    top: 30%;
-    left: 20%;
+   
 }
-
 #signup_p {
     color: grey;
     margin-bottom: 10px;
 }
-
 input#signupbar {
     padding: 10px 10px;
     border-radius: 25px;
@@ -144,7 +131,6 @@ input#signupbar {
     width: 80%;
     margin: 10px 0;
 }
-
 button.signup-button {
     width: 83%;
     padding: 10px 10px;
@@ -154,7 +140,6 @@ button.signup-button {
     border: 0;
     border-radius: 25px;
 }
-
 a#alreadyamember {
     text-decoration: none;
     color: black;
@@ -162,27 +147,24 @@ a#alreadyamember {
 }
 
 @media screen and (max-width: 600px) {
-    .header {
-        position: inherit;
-    }
-
-    h1#heading1 {
-        position: absolute;
-        top: 34vw;
-    }
-
-    .store-logo {
-        text-align: center;
-    }
-
-    .sign {
-
-        width: 80%;
-    }
+.header {
+    position: inherit;
 }
+h1#heading1 {
+    position: absolute;
+    top: 34vw;
+}
+.store-logo {
+    text-align: center;
+}
+.sign {
 
-/* **************************************
-********************Cart************/
+    width: 80%;
+}
+}
+/***************************************
+********************Cart
+******************************************/
 main {
     margin: 7rem 2rem;
 }
@@ -190,32 +172,26 @@ main {
 main .heading {
     padding: 2rem 3rem;
 }
-
 main table {
     width: 100%;
     border-collapse: separate;
-    font-size: 2vw;
+    border-spacing: 2rem 2rem;
 }
-
 main table th {
     text-align: left;
 }
-
 main table tr {
     text-align: left;
 }
-
 main table td button {
-padding: 1% 5%;
-background-color: #fff;
-border: 1px solid #000;
-border-radius: 20px;
-word-spacing: 5px;
-font-size: 2vw;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    word-spacing: 5px;
 }
-
 main table td button span {
-    padding: 5px;
+ padding: 5px;
 }
 
 main table tr .product {
@@ -223,31 +199,26 @@ main table tr .product {
     align-items: center;
     gap: 1.5rem;
 }
-
 main .total {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 9rem;
 }
-
 main .total .amount p {
     font-weight: bolder;
 }
-
 main .total .next-step {
     display: flex;
     gap: 2rem;
     align-items: center;
 }
-
 main .total .next-step button {
     padding: 1rem 2rem;
     background-color: #fff;
     border-radius: 20px;
-    border: 1px solid #000;
+   border: 1px solid #000;
 }
-
 main .total .next-step button.next {
     background-color: blue;
     color: #fff;
@@ -256,13 +227,12 @@ main .total .next-step button.next {
 
 .thanks {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 9vh 0;
     font-size: xx-large;
     font-weight: bolder;
     text-decoration: solid;
     background-color: blue;
 }
-
 .thanks p {
     padding: 5rem 0rem;
     color: #fff;
@@ -307,73 +277,61 @@ h4#design {
 .details {
     width: 100%;
     margin: 50px 0;
-}
-
-.details .product-details {
+  }
+  .details .product-details {
     width: 35%;
     margin: 0 auto;
     font-family: Poppins;
     margin-top: 7%;
     margin-left: 15%;
-}
-
-.details h3 {
+  }
+  .details h3 {
     font-family: Poppins;
     color: black;
     font-weight: bolder;
     margin: 0;
-}
-
-.details h4 {
+  }
+  .details h4 {
     font-family: Poppins;
     color: black;
     font-size: 20px;
     font-weight: normal;
     margin: 20px auto;
-}
-
-.details .box2 table {
+  }
+  .details .box2 table {
     margin: 0;
     width: 100%;
     color: #000000;
     border-collapse: collapse;
-}
-
-.details .product-details .box2 tr {
+  }
+  .details .product-details .box2 tr {
     height: 2em;
-}
-
-.details .product-details .box2 .td-item {
+  }
+  .details .product-details .box2 .td-item {
     width: 60%;
-}
-
-.details .product-details .box2 .td-quantity {
+  }
+  .details .product-details .box2 .td-quantity {
     width: 10%;
-}
-
-.details .product-details .box2 .td-price {
+  }
+  .details .product-details .box2 .td-price {
     width: 10%;
-}
-
-.details .product-details .box2 .td-items {
+  }
+  .details .product-details .box2 .td-items {
     width: 60%;
-}
-
-.details .product-details .box2 .td-quantitys {
+  }
+  .details .product-details .box2 .td-quantitys {
     width: 10;
-}
-
-.details .product-details .box2 .td-prices {
+  }
+  .details .product-details .box2 .td-prices {
     width: 10;
-}
+  }
 
-.details .product-details .box2 .border {
+  .details .product-details .box2 .border {
     border-top: 2px solid black;
     font-weight: bold;
     color: #313636;
     white-space: nowrap;
 }
-
 .details .dispatch .form input {
     width: 100%;
     padding: 10px;
@@ -385,7 +343,6 @@ h4#design {
     background-color: white;
     border: 1px solid #cccccc;
 }
-
 .form {
     width: 45%;
     margin-top: 1%;
@@ -395,3 +352,5 @@ h4#design {
 label.supplie {
     font-weight: bolder;
 }
+  
+  
